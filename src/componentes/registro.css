@@ -1,0 +1,60 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: 
+    linear-gradient(
+        rgba(27, 27, 27, 0.5), 
+        rgba(27, 27, 27, 0.5)
+        ), 
+    url("https://www.comtoledo.org/wp-content/uploads/2020/05/formulario_datos.jpg");
+    background-size: cover;
+    color: azure;
+    border-radius: 10px;
+    
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin-top: 15px;
+    padding: 5px;
+    background-color: rgb(29, 29, 29);
+    border-radius: 10px 10px 0 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    width: 300px;
+    
+}
+
+.registerButton{
+    margin-top: 20px;
+    background-color: teal;
+    border: none;
+    color: beige;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.checkBox{
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
